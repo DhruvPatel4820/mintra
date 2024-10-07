@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    border-bottom: 1px solid #e6e1e1;
+
+}
+.myntra_logo{
+    height: 50px;
+
+}
+.logo_container{
+    margin-left: 4%;
+}
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+.nav_bar a{
+    color: #282c3f ;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-weight: 700px;
+     letter-spacing: 2px;
+     font-size: 14px;
+     padding: 13px 0px;
+     border-bottom: 1px solid #e6e1e1
+} 
+.nav_bar a sup{
+    color: red;
+    font-size: 10px;
+}
+
+.nav_bar a:hover{
+    border-bottom: 1px solid #f54e77;
+
+}
+.search_bar{
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    width: 30%;
+}
+.search_input{
+    border-radius: 5px;
+    flex-grow: 1;
+    border: 0px;
+    height: 25px;
+    color: #696e79;
+    background-color: aliceblue;
+}
+.banner_container{
+    margin: 40px 0px;
+}
+.banner_image{
+    width: 100%;
+}
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-weight: 700px;
+    margin: 50px 0 10px 30px;
+    font-size: 1.8em;
+    max-height: 5em;
+}
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale_item{
+    width: 200px;
+}
+.footer_container{
+
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
+}
+.footer_column a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.copyright{
+    text-align: end;
+    color: #94969f;
+    padding: 5px;
+    
+}
